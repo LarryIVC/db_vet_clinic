@@ -12,14 +12,14 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  <!-- - [🚀 Live Demo](#live-demo) -->
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  <!-- - [Run tests](#run-tests) -->
+  <!-- - [Deployment](#triangular_flag_on_post-deployment) -->
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -66,8 +66,6 @@
 
 <!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
 
-> Add a link to your deployed project.
-
 <!-- - [Live Demo Link](<replace-with-your-deployment-URL>) -->
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
@@ -75,8 +73,6 @@
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -105,13 +101,11 @@ Example command:
 
 To run the project, execute the following command:
 
-<!--
 Example command:
 
 ```sh
   psql postgres postgres
 ```
---->
 
 <!-- ### Run tests
 
@@ -154,8 +148,6 @@ Example:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Add more tables]**
 - [ ] **[Make better querys]**
