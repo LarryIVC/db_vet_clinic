@@ -91,7 +91,7 @@ Example commands:
 
 In order to run this project you need:
 
-Example command:
+<!-- Example command: -->
 
 ```
   To have installed PostgreSQL database server
