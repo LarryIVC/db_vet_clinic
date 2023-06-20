@@ -10,3 +10,7 @@ CREATE TABLE animals
     neutered boolean,
     weight_kg double precision
 );
+
+--Add a column species of type string to your animals
+alter table animals add column species varchar;
+
