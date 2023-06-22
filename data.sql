@@ -13,3 +13,28 @@ insert into animals values (9,'Boarmon', '2005-06-07',7,true,20.4);
 insert into animals values (10,'Blossom', '1998-10-13',3,true,17);
 insert into animals values (11,'Ditto', '2022-05-14',4,true,22);
 
+--day3
+--insert data to owners table
+insert into owners (full_name, age) values ('Sam Smith', 34);
+insert into owners (full_name, age) values ('Jennifer Orwell', 19);
+insert into owners (full_name, age) values ('Bob', 45);
+insert into owners (full_name, age) values ('Melody Pond', 77);
+insert into owners (full_name, age) values ('Dean Winchester', 14);
+insert into owners (full_name, age) values ('Jodie Whittaker', 38);
+
+--insert data to species table
+insert into species (name) values ('Pokemon');
+insert into species (name) values ('Digimon');
+ 
+--Modify your inserted animals so it includes the species_id value
+
+update animals set species_id=2 where name like '%mon';
+update animals set species_id=1 where species_id is null;
+
+--Modify your inserted animals to include owner information (owner_id)
+update animals set owner_id=1 where name='Agumon';
+update animals set owner_id=2 where name='Gabumon' or name='Pikachu';
+update animals set owner_id=3 where name='Devimon' or name='Plantmon';
+update animals set owner_id=4 where name='Charmander' or name='Squirtle' or name='Blossom';
+update animals set owner_id=5 where name='Angemon' or name='Boarmon';
+
