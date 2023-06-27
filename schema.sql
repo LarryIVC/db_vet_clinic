@@ -65,3 +65,11 @@ create table visits (
     date_of_visit date,
     primary key (animals_id, vets_id, date_of_visit)
 );    
+
+--week2_day1
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+create index idx_vets_id on visits (vets_id)
+create index idx_owner_email on owners (email)
