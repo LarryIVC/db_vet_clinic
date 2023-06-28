@@ -189,3 +189,14 @@ where vt.name = 'Vet Maisy Smith'
 group by s.name 
 order by n_visits desc limit 1;
 
+--week2_day1
+
+--after
+explain analyze SELECT COUNT(*) FROM visits where animals_id = 4;
+explain analyze SELECT * FROM visits where vets_id = 2;
+explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
+
+--before
+explain analyze SELECT COUNT(animals_id) FROM visits where animals_id = 4;
+explain analyze SELECT animals_id FROM visits where vets_id = 2;
+explain analyze SELECT id FROM owners where email = 'owner_18327@mail.com';
